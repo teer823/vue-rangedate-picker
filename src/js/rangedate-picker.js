@@ -1,17 +1,20 @@
 import fecha from 'fecha'
 
 const defaultConfig = {}
-const defaultI18n = 'ID'
+const defaultI18n = 'TH'
 const availableMonths = {
   EN: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November',
     'December'],
   ID: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November',
-    'Desember']
+    'Desember'],
+    TH: ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน',
+    'ธันวาคม']
 }
 
 const availableShortDays = {
   EN: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-  ID: ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab']
+  ID: ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'],
+  TH: ['จ', 'อ', 'พ', 'พฤ', 'ศ', 'ส', 'อา']
 }
 
 const presetRangeLabel = {
@@ -28,6 +31,13 @@ const presetRangeLabel = {
     lastMonth: 'Bulan lalu',
     lastSevenDays: '7 Hari Terakhir',
     lastThirtyDays: '30 Hari Terakhir'
+  },
+  ID: {
+    today: 'วันนี้',
+    thisMonth: 'เดือนนี้',
+    lastMonth: 'เดือนก่อน',
+    lastSevenDays: '7 วันก่อน',
+    lastThirtyDays: '30 วันก่อน'
   }
 }
 
