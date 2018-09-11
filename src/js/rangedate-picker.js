@@ -32,7 +32,7 @@ const presetRangeLabel = {
     lastSevenDays: '7 Hari Terakhir',
     lastThirtyDays: '30 Hari Terakhir'
   },
-  ID: {
+  TH: {
     today: 'วันนี้',
     thisMonth: 'เดือนนี้',
     lastMonth: 'เดือนก่อน',
